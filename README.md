@@ -22,9 +22,10 @@ Fonte: https://docs.konghq.com/gateway/3.9.x/install/docker/?install=oss
 
 ## Criar certificados autoassinados
 
-OBS: Certificado gerado já esta no repositório, esta etapa pode ser pulada
+Gerar os certificados em uma pasta na raiz do projeto ./certificados
 
 ```shell
+cd certificados
 openssl req -x509 -newkey rsa:2048 -keyout tempkey.pem -out cert.pem -days 365
 ```
 
