@@ -1,0 +1,146 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Página-1" id="YguvvAgWTXlOZGUkn4dv">
+    <mxGraphModel dx="987" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8sduxTmjvblplgpu9ORx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500.5" y="631" as="sourcePoint" />
+            <mxPoint x="370.5" y="631" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-12" value="Return Auth Code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8sduxTmjvblplgpu9ORx-11">
+          <mxGeometry x="0.2733" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499.5" y="749" as="sourcePoint" />
+            <mxPoint x="109.5" y="749" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-19" value="Return Acess Token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8sduxTmjvblplgpu9ORx-18">
+          <mxGeometry x="0.1564" y="-1" relative="1" as="geometry">
+            <mxPoint x="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-1" value="Kong" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="450" y="490" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="570" as="sourcePoint" />
+            <mxPoint x="370" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-7" value="Redirect p/ Página de Autorização" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8sduxTmjvblplgpu9ORx-6">
+          <mxGeometry x="-0.1923" y="-3" relative="1" as="geometry">
+            <mxPoint x="21" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="109.5" y="712" as="sourcePoint" />
+            <mxPoint x="499.5" y="712" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-17" value="Get Access Token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8sduxTmjvblplgpu9ORx-16">
+          <mxGeometry x="-0.0231" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-2" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="60" y="490" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-3" value="Resource" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="190" y="490" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.5" y="604" as="sourcePoint" />
+            <mxPoint x="499.5" y="604" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="604" />
+              <mxPoint x="450" y="604" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-9" value="Get Auth Code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8sduxTmjvblplgpu9ORx-8">
+          <mxGeometry x="-0.2846" y="4" relative="1" as="geometry">
+            <mxPoint x="15" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.5" y="671" as="sourcePoint" />
+            <mxPoint x="109.5" y="671" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-15" value="Redirect p/ Cliente com Auth Code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8sduxTmjvblplgpu9ORx-14">
+          <mxGeometry x="-0.1269" y="1" relative="1" as="geometry">
+            <mxPoint x="-24" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-4" value="Auth Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="320" y="490" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-23" value="Client" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-24" value="Resources" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-25" value="Auth Server" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8sduxTmjvblplgpu9ORx-42" target="8sduxTmjvblplgpu9ORx-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-31" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8sduxTmjvblplgpu9ORx-30">
+          <mxGeometry x="-0.0615" y="1" relative="1" as="geometry">
+            <mxPoint x="30" y="-63" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8sduxTmjvblplgpu9ORx-42" target="8sduxTmjvblplgpu9ORx-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-36" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8sduxTmjvblplgpu9ORx-34">
+          <mxGeometry x="0.7333" y="-3" relative="1" as="geometry">
+            <mxPoint x="-1" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="8sduxTmjvblplgpu9ORx-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="118" y="191.09000000000003" as="sourcePoint" />
+            <mxPoint x="269.98" y="199.9000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-29" value="HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8sduxTmjvblplgpu9ORx-28">
+          <mxGeometry x="-0.0561" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8sduxTmjvblplgpu9ORx-42" target="8sduxTmjvblplgpu9ORx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-44" value="HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8sduxTmjvblplgpu9ORx-43">
+          <mxGeometry x="0.429" y="-5" relative="1" as="geometry">
+            <mxPoint x="1" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-42" value="Kong" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.icon-icons.com/3912/PNG/512/kong_logo_icon_247891.png;" vertex="1" parent="1">
+          <mxGeometry x="206" y="145.09" width="92" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="8sduxTmjvblplgpu9ORx-45" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/browser-icon-2048x2048-ylx4audr.png;" vertex="1" parent="1">
+          <mxGeometry x="60" y="159.09" width="64" height="64" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

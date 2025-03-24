@@ -1,0 +1,47 @@
+services:
+  client:
+    build: ./client
+    networks:
+      - kong-net
+    restart: unless-stopped
+    ports:
+      - "10001:3000"
+    environment:
+      KONG_API: 'https://kong-gateway:8443'
+      API_PATH: '/resource'
+      CLIENT_ID: 'qDWBHj46N4A1TXw3RyrXy2N4WHgmMJ5t'
+      CLIENT_SECRET: 'clbnpqasmLBKiZ6ke1ufN7GqzoCMgK1C'
+
+  auth_server:
+    build: ./auth_server
+    networks:
+      - kong-net
+    restart: unless-stopped
+    ports:
+      - "10002:3000"
+    environment:
+      PROVISION_KEY: '1c071606-9701-404c-953e-99315ccc07d6'
+      KONG_ADMIN: 'http://kong-gateway:8001'
+      KONG_API: 'https://kong-gateway:8443'
+      API_PATH: '/resource'
+      SCOPES: |
+        { 
+          "email": "Grant permissions to read your email address", 
+          "address": "Grant permissions to read your address information", 
+          "phone": "Grant permissions to read your mobile phone number" 
+        }
+
+  resource:
+    build: ./resource
+    networks:
+      - kong-net
+    restart: unless-stopped
+    ports:
+      - "10003:3000"
+    volumes:
+      - ./certificados/cert.pem:/certificados/cert.pem
+      - ./certificados/key.pem:/certificados/key.pem
+
+networks:
+  kong-net:
+    external: true

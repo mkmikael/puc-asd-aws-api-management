@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Authorize Application
+  body
+    h1 Authorize #{application_name}
+    hr
+    b Atenção: Nesse ponto o usuário deve está logado.
+    hr
+    p Esta aplicação gostaria de ter autorização aos seus dados.
+    if scope
+      ul
+        each val in scope.split(" ")
+          if SCOPE_DESCRIPTIONS[val.trim()]
+            li= val.trim() + " - " + SCOPE_DESCRIPTIONS[val.trim()]
+
+    form(name="authorize", action="/auth_server/authorize", method="post")
+      input(type="hidden", name="client_id", value=client_id)
+      input(type="hidden", name="response_type", value=response_type)
+      input(type="hidden", name="scope", value=scope)
+      input(type="submit", value="Authorize")

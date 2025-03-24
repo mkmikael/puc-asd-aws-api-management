@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title Login
+  body
+    h2 Login
+    if erro
+      p(style="color: red") #{erro}
+
+    form(action="/auth_server/login" method="post")
+      label Usuário:
+      input(type="text" name="username" required)
+      br
+      label Senha:
+      input(type="password" name="password" required)
+      br
+      button(type="submit") Entrar
